@@ -1,0 +1,304 @@
+[
+  {
+    "term": "AATL (Adobe Approved Trust List)",
+    "def": "Program of trusted certificate providers recognized by Adobe for document signing.",
+    "tags": [
+      "signing",
+      "pdf",
+      "pki"
+    ],
+    "see": [
+      "LTV",
+      "RFC-3161"
+    ]
+  },
+  {
+    "term": "Additionality",
+    "def": "Evidence that a project’s benefits would not occur without the project.",
+    "tags": [
+      "integrity",
+      "carbon"
+    ],
+    "see": [
+      "MRV"
+    ]
+  },
+  {
+    "term": "Article 6 (Paris Agreement)",
+    "def": "Framework enabling international carbon markets; includes A6.2 and A6.4.",
+    "tags": [
+      "policy",
+      "UNFCCC"
+    ],
+    "see": [
+      "A6.2",
+      "A6.4",
+      "ITMO",
+      "Corresponding Adjustment"
+    ]
+  },
+  {
+    "term": "CASP (Crypto‑Asset Service Provider)",
+    "def": "EU MiCA category for firms offering crypto‑asset services.",
+    "tags": [
+      "regulation",
+      "EU"
+    ],
+    "see": [
+      "MiCA"
+    ]
+  },
+  {
+    "term": "CORSIA",
+    "def": "ICAO’s scheme for aviation emissions; defines eligible units and rules.",
+    "tags": [
+      "aviation"
+    ],
+    "see": [
+      "ICAO"
+    ]
+  },
+  {
+    "term": "DPIA",
+    "def": "Data Protection Impact Assessment (GDPR Art. 35).",
+    "tags": [
+      "privacy",
+      "GDPR"
+    ]
+  },
+  {
+    "term": "ERC‑20",
+    "def": "Ethereum standard for fungible tokens.",
+    "tags": [
+      "ethereum",
+      "token"
+    ]
+  },
+  {
+    "term": "ERC‑1155",
+    "def": "Multi‑token standard (fungible, semi‑fungible, NFT) in one contract.",
+    "tags": [
+      "ethereum",
+      "token"
+    ]
+  },
+  {
+    "term": "EU ETS",
+    "def": "EU Emissions Trading System (cap‑and‑trade) issuing EUAs.",
+    "tags": [
+      "policy",
+      "EU"
+    ]
+  },
+  {
+    "term": "GDPR",
+    "def": "EU privacy law governing personal data processing.",
+    "tags": [
+      "privacy",
+      "EU"
+    ],
+    "see": [
+      "DPIA",
+      "RoPA"
+    ]
+  },
+  {
+    "term": "GIS",
+    "def": "Geographic Information System for spatial data used in MRV.",
+    "tags": [
+      "spatial",
+      "MRV"
+    ]
+  },
+  {
+    "term": "HSM",
+    "def": "Hardware Security Module for tamper‑resistant key storage/ops.",
+    "tags": [
+      "security",
+      "keys"
+    ],
+    "see": [
+      "AWS KMS",
+      "CloudHSM",
+      "MPC"
+    ]
+  },
+  {
+    "term": "ITMO",
+    "def": "Internationally Transferred Mitigation Outcome under Article 6.",
+    "tags": [
+      "policy"
+    ],
+    "see": [
+      "Corresponding Adjustment"
+    ]
+  },
+  {
+    "term": "Keccak‑256",
+    "def": "Hash used by Ethereum; distinct from FIPS SHA‑3.",
+    "tags": [
+      "crypto"
+    ],
+    "see": [
+      "SHA‑256",
+      "Hash"
+    ]
+  },
+  {
+    "term": "LTV (Long‑Term Validation)",
+    "def": "Mechanism to keep a digital signature verifiable over time (embed OCSP/CRL).",
+    "tags": [
+      "signing"
+    ],
+    "see": [
+      "AATL",
+      "RFC-3161"
+    ]
+  },
+  {
+    "term": "Merkle Root",
+    "def": "Aggregate hash representing a set of files/data for integrity proofs.",
+    "tags": [
+      "hash",
+      "security"
+    ]
+  },
+  {
+    "term": "MiCA",
+    "def": "EU Markets in Crypto‑Assets Regulation.",
+    "tags": [
+      "regulation",
+      "EU"
+    ],
+    "see": [
+      "CASP"
+    ]
+  },
+  {
+    "term": "Mint (token)",
+    "def": "Create new tokens per contract rules/roles.",
+    "tags": [
+      "tokenization"
+    ],
+    "see": [
+      "Burn"
+    ]
+  },
+  {
+    "term": "MPC",
+    "def": "Multi‑Party Computation for key management without a single key copy.",
+    "tags": [
+      "security",
+      "custody"
+    ]
+  },
+  {
+    "term": "MRV",
+    "def": "Measurement, Reporting, and Verification for carbon projects.",
+    "tags": [
+      "carbon"
+    ]
+  },
+  {
+    "term": "Originating Certificate",
+    "def": "PDF issued at token minting, signed and time‑stamped.",
+    "tags": [
+      "signing",
+      "evidence"
+    ],
+    "see": [
+      "RFC-3161",
+      "AATL",
+      "LTV"
+    ]
+  },
+  {
+    "term": "RBAC",
+    "def": "Role‑Based Access Control for permissions and roles.",
+    "tags": [
+      "security"
+    ],
+    "see": [
+      "ACL",
+      "IAM"
+    ]
+  },
+  {
+    "term": "RFC-3161",
+    "def": "Time‑Stamp Protocol by a TSA; supports trusted timestamps.",
+    "tags": [
+      "signing",
+      "timestamps"
+    ]
+  },
+  {
+    "term": "S3 Object Lock",
+    "def": "AWS WORM/immutability feature with retention/legal hold.",
+    "tags": [
+      "storage",
+      "immutability"
+    ],
+    "see": [
+      "WORM"
+    ]
+  },
+  {
+    "term": "Sepolia",
+    "def": "Ethereum test network used for deployments/testing.",
+    "tags": [
+      "ethereum",
+      "testnet"
+    ]
+  },
+  {
+    "term": "Smart Contract",
+    "def": "Code deployed to a blockchain executing deterministically.",
+    "tags": [
+      "ethereum",
+      "logic"
+    ]
+  },
+  {
+    "term": "TSA (Time‑Stamping Authority)",
+    "def": "Trusted service issuing RFC‑3161 timestamps.",
+    "tags": [
+      "signing",
+      "timestamps"
+    ]
+  },
+  {
+    "term": "Tron Nile",
+    "def": "Tron testnet used for testing.",
+    "tags": [
+      "tron",
+      "testnet"
+    ]
+  },
+  {
+    "term": "VCU",
+    "def": "Verified Carbon Unit (Verra); typically equals 1 tonne CO₂e.",
+    "tags": [
+      "unit",
+      "voluntary"
+    ],
+    "see": [
+      "Verra"
+    ]
+  },
+  {
+    "term": "Verra (VCS)",
+    "def": "Voluntary carbon standard and registry issuing VCUs.",
+    "tags": [
+      "registry",
+      "standard"
+    ]
+  },
+  {
+    "term": "WORM",
+    "def": "Write Once Read Many property for immutable storage.",
+    "tags": [
+      "storage",
+      "immutability"
+    ]
+  }
+]

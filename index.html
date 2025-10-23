@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Carbon Foundation — Glossary</title>
+  <meta name="description" content="Public glossary of terms used by The Carbon Foundation (TCF): carbon markets, MRV, tokenization, compliance, and engineering." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container row">
+      <h1 class="title">The Carbon Foundation — Glossary</h1>
+      <nav class="top-actions">
+        <a id="editLink" class="btn" target="_blank" rel="noopener">Contribute on GitHub</a>
+      </nav>
+    </div>
+    <p class="subtitle">A living list of terms across carbon markets, MRV, tokenization, fintech, security, and compliance.</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label class="search-label" for="q">Search</label>
+      <input id="q" class="search" type="search" placeholder="Type to filter terms & definitions…" autocomplete="off" />
+      <div id="counts" class="counts" aria-live="polite"></div>
+      <div id="alphabet" class="alphabet" role="navigation" aria-label="A to Z navigation"></div>
+    </section>
+
+    <section id="content" class="content" aria-live="polite">
+      <div class="loading">Loading glossary…</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Maintained by The Carbon Foundation. Licensed under MIT.</p>
+      <p><a id="viewSource" target="_blank" rel="noopener">View repository</a></p>
+    </div>
+  </footer>
+
+  <script>
+    window.SITE = { owner: 'YOUR_GH_USERNAME_OR_ORG', repo: 'tcf-glossary', branch: 'main' };
+  </script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

@@ -13,6 +13,40 @@
     ]
   },
   {
+    "term": "ABAC (Attribute-Based Access Control)",
+    "def": "Access decisions based on user and resource attributes (e.g., department, sensitivity).",
+    "tags": [
+      "security",
+      "access"
+    ],
+    "see": [
+      "RBAC"
+    ]
+  },
+  {
+    "term": "ABI (Application Binary Interface)",
+    "def": "The interface definition for calling smart contract functions and decoding events.",
+    "tags": [
+      "ethereum",
+      "dev"
+    ],
+    "see": [
+      "Smart Contract"
+    ]
+  },
+  {
+    "term": "Account Abstraction (ERC-4337)",
+    "def": "Ethereum pattern enabling smart-contract wallets with programmable validation and sponsored gas.",
+    "tags": [
+      "ethereum",
+      "wallets"
+    ],
+    "see": [
+      "Fee Station",
+      "MPC"
+    ]
+  },
+  {
     "term": "Additionality",
     "def": "Evidence that a project’s benefits would not occur without the project.",
     "tags": [
@@ -20,6 +54,70 @@
       "carbon"
     ],
     "see": [
+      "MRV"
+    ]
+  },
+  {
+    "term": "AEAD",
+    "def": "Authenticated Encryption with Associated Data; provides confidentiality and integrity in one operation.",
+    "tags": [
+      "crypto",
+      "security"
+    ]
+  },
+  {
+    "term": "AEOI",
+    "def": "Automatic Exchange of Information for tax transparency (e.g., CRS).",
+    "tags": [
+      "compliance",
+      "finance"
+    ]
+  },
+  {
+    "term": "AI Act (EU)",
+    "def": "EU regulation defining obligations and risk classes for AI systems.",
+    "tags": [
+      "EU",
+      "compliance"
+    ]
+  },
+  {
+    "term": "Airtight Claim",
+    "def": "A carbon or sustainability claim with clear scope, evidence, and auditability.",
+    "tags": [
+      "claims",
+      "comms"
+    ],
+    "see": [
+      "Provenance",
+      "MRV"
+    ]
+  },
+  {
+    "term": "Allowlist",
+    "def": "Explicit list of approved items (addresses, domains, keys) used to limit what is permitted.",
+    "tags": [
+      "security",
+      "ops"
+    ]
+  },
+  {
+    "term": "API Rate Limiting",
+    "def": "Protects services by limiting how often clients can call an API.",
+    "tags": [
+      "api",
+      "ops"
+    ]
+  },
+  {
+    "term": "ARR / Afforestation-Reforestation-Restoration",
+    "def": "Project category creating or restoring forests to remove CO₂.",
+    "tags": [
+      "carbon",
+      "forestry"
+    ],
+    "see": [
+      "REDD+",
       "MRV"
     ]
   },
@@ -38,6 +136,116 @@
     ]
   },
   {
+    "term": "Assurance (Third-Party)",
+    "def": "Independent evaluation of data or claims against criteria.",
+    "tags": [
+      "audit",
+      "compliance"
+    ],
+    "see": [
+      "Verification",
+      "ISO 14065"
+    ]
+  },
+  {
+    "term": "Attestation (OCSP/CRL)",
+    "def": "Status proof that a certificate is valid or revoked.",
+    "tags": [
+      "signing",
+      "pki"
+    ],
+    "see": [
+      "LTV",
+      "AATL"
+    ]
+  },
+  {
+    "term": "Audit Log Integrity",
+    "def": "Controls ensuring logs cannot be altered without detection.",
+    "tags": [
+      "security",
+      "ops"
+    ],
+    "see": [
+      "Anchor",
+      "Merkle Root"
+    ]
+  },
+  {
+    "term": "Baseline Scenario",
+    "def": "The counterfactual scenario used to quantify project impact.",
+    "tags": [
+      "carbon",
+      "MRV"
+    ],
+    "see": [
+      "Additionality"
+    ]
+  },
+  {
+    "term": "Basis (Price Basis)",
+    "def": "Price difference between related instruments (e.g., spot vs forward).",
+    "tags": [
+      "markets",
+      "risk"
+    ]
+  },
+  {
+    "term": "Buffer Pool",
+    "def": "Shared reserve of credits used to cover project underperformance or reversals.",
+    "tags": [
+      "carbon",
+      "risk"
+    ],
+    "see": [
+      "Permanence",
+      "Leakage"
+    ]
+  },
+  {
+    "term": "CA (Certification Authority)",
+    "def": "Entity that issues digital certificates for TLS/signing.",
+    "tags": [
+      "pki",
+      "signing"
+    ],
+    "see": [
+      "AATL",
+      "LTV"
+    ]
+  },
+  {
+    "term": "CAA (Certificate Authority Authorization)",
+    "def": "DNS record restricting which CAs may issue certificates for a domain.",
+    "tags": [
+      "dns",
+      "pki"
+    ],
+    "see": [
+      "CA"
+    ]
+  },
+  {
+    "term": "Carbon Leakage",
+    "def": "Emissions increasing outside a project boundary due to the project.",
+    "tags": [
+      "carbon",
+      "MRV"
+    ]
+  },
+  {
+    "term": "Carbon Removal",
+    "def": "Durable CO₂ removal from the atmosphere (e.g., DAC, mineralization).",
+    "tags": [
+      "carbon",
+      "removal"
+    ],
+    "see": [
+      "CRC",
+      "Permanence"
+    ]
+  },
+  {
     "term": "CASP (Crypto‑Asset Service Provider)",
     "def": "EU MiCA category for firms offering crypto‑asset services.",
     "tags": [
@@ -46,6 +254,50 @@
     ],
     "see": [
       "MiCA"
+    ]
+  },
+  {
+    "term": "Certificate Pinning",
+    "def": "Restricting clients to trust only specific TLS certificates or keys.",
+    "tags": [
+      "security",
+      "pki"
+    ]
+  },
+  {
+    "term": "Chain of Custody",
+    "def": "Evidence of control/ownership transitions for data or assets.",
+    "tags": [
+      "provenance",
+      "audit"
+    ]
+  },
+  {
+    "term": "CMS/PKCS#7",
+    "def": "Cryptographic message syntax used for digital signatures on documents.",
+    "tags": [
+      "signing",
+      "pki"
+    ],
+    "see": [
+      "PAdES",
+      "LTV"
+    ]
+  },
+  {
+    "term": "Consent (GDPR)",
+    "def": "Freely given, specific, informed, unambiguous indication to process personal data.",
+    "tags": [
+      "privacy",
+      "GDPR"
+    ]
+  },
+  {
+    "term": "Content Security Policy (CSP)",
+    "def": "HTTP header that restricts sources for scripts, styles, etc., to prevent XSS.",
+    "tags": [
+      "security",
+      "web"
     ]
   },
   {
@@ -59,6 +311,60 @@
     ]
   },
   {
+    "term": "Counterparty Risk",
+    "def": "Risk a party fails to perform on a contract.",
+    "tags": [
+      "risk",
+      "markets"
+    ]
+  },
+  {
+    "term": "CRC (Carbon Removal Credit)",
+    "def": "A credit representing durable CO₂ removal, not just avoidance.",
+    "tags": [
+      "unit",
+      "removal"
+    ]
+  },
+  {
+    "term": "CRL (Certificate Revocation List)",
+    "def": "List of revoked certificates published by a CA.",
+    "tags": [
+      "pki",
+      "signing"
+    ],
+    "see": [
+      "OCSP"
+    ]
+  },
+  {
+    "term": "DAC (Direct Air Capture)",
+    "def": "Technology that removes CO₂ directly from ambient air.",
+    "tags": [
+      "removal",
+      "tech"
+    ]
+  },
+  {
+    "term": "Data Minimization",
+    "def": "Collect and retain only the data necessary for the purpose.",
+    "tags": [
+      "privacy",
+      "GDPR"
+    ]
+  },
+  {
+    "term": "DPA (Data Processing Agreement)",
+    "def": "Contract defining controller/processor obligations under GDPR.",
+    "tags": [
+      "privacy",
+      "GDPR"
+    ],
+    "see": [
+      "RoPA"
+    ]
+  },
+  {
     "term": "DPIA",
     "def": "Data Protection Impact Assessment (GDPR Art. 35).",
     "tags": [
@@ -67,11 +373,68 @@
     ]
   },
   {
-    "term": "ERC‑20",
-    "def": "Ethereum standard for fungible tokens.",
+    "term": "Dual Control",
+    "def": "Requiring two separate people/approvals for sensitive actions.",
+    "tags": [
+      "security",
+      "ops"
+    ],
+    "see": [
+      "Two-man rule"
+    ]
+  },
+  {
+    "term": "Due Diligence (KYT/KYB)",
+    "def": "Risk assessment on transactions (KYT) or businesses (KYB).",
+    "tags": [
+      "compliance",
+      "AML"
+    ],
+    "see": [
+      "CDD",
+      "KYC"
+    ]
+  },
+  {
+    "term": "eIDAS",
+    "def": "EU regulation for electronic identification and trust services (signatures, seals).",
+    "tags": [
+      "EU",
+      "signing"
+    ],
+    "see": [
+      "QES",
+      "PAdES"
+    ]
+  },
+  {
+    "term": "EIP-2612 (Permit)",
+    "def": "ERC-20 permit allowing approvals via signatures instead of on-chain tx.",
     "tags": [
       "ethereum",
       "token"
+    ],
+    "see": [
+      "ERC-20"
+    ]
+  },
+  {
+    "term": "EIP-712",
+    "def": "Typed structured data signing for Ethereum; reduces phishing risks.",
+    "tags": [
+      "ethereum",
+      "signing"
+    ]
+  },
+  {
+    "term": "Envelope Encryption",
+    "def": "Encrypt data with a data key, which is itself encrypted by a master key.",
+    "tags": [
+      "security",
+      "keys"
+    ],
+    "see": [
+      "AWS KMS"
     ]
   },
   {
@@ -83,11 +446,69 @@
     ]
   },
   {
+    "term": "ERC‑20",
+    "def": "Ethereum standard for fungible tokens.",
+    "tags": [
+      "ethereum",
+      "token"
+    ]
+  },
+  {
     "term": "EU ETS",
     "def": "EU Emissions Trading System (cap‑and‑trade) issuing EUAs.",
     "tags": [
       "policy",
       "EU"
+    ]
+  },
+  {
+    "term": "EU Taxonomy",
+    "def": "Classification of environmentally sustainable activities in the EU.",
+    "tags": [
+      "EU",
+      "compliance"
+    ],
+    "see": [
+      "CSRD"
+    ]
+  },
+  {
+    "term": "Event Sourcing",
+    "def": "Persisting state as a sequence of immutable events.",
+    "tags": [
+      "architecture",
+      "audit"
+    ]
+  },
+  {
+    "term": "FATF Travel Rule",
+    "def": "Requirement for VASPs to share sender/recipient information in transfers.",
+    "tags": [
+      "AML",
+      "crypto"
+    ]
+  },
+  {
+    "term": "FCR (Forward Carbon Removal)",
+    "def": "Contract to deliver future carbon removals, often with milestones.",
+    "tags": [
+      "markets",
+      "contracts"
+    ],
+    "see": [
+      "Offtake Agreement"
+    ]
+  },
+  {
+    "term": "Fireblocks",
+    "def": "Digital asset platform for custody, policy controls, and workflows.",
+    "tags": [
+      "custody",
+      "ops"
+    ],
+    "see": [
+      "MPC",
+      "Custody"
     ]
   },
   {
@@ -103,10 +524,38 @@
     ]
   },
   {
+    "term": "Geotiff",
+    "def": "Raster image format embedding geospatial metadata.",
+    "tags": [
+      "GIS",
+      "MRV"
+    ]
+  },
+  {
     "term": "GIS",
     "def": "Geographic Information System for spatial data used in MRV.",
     "tags": [
       "spatial",
+      "MRV"
+    ]
+  },
+  {
+    "term": "Gold Standard (GS)",
+    "def": "Voluntary carbon standard focused on sustainable development impacts.",
+    "tags": [
+      "registry",
+      "standard"
+    ],
+    "see": [
+      "Verra",
+      "ACR"
+    ]
+  },
+  {
+    "term": "HDD/Heating Degree Day",
+    "def": "Weather metric used to model heating energy demand and emissions.",
+    "tags": [
+      "climate",
       "MRV"
     ]
   },
@@ -121,6 +570,77 @@
       "AWS KMS",
       "CloudHSM",
       "MPC"
+    ]
+  },
+  {
+    "term": "I-REC",
+    "def": "International REC; energy attribute certificates outside EU/US schemes.",
+    "tags": [
+      "energy",
+      "certificates"
+    ],
+    "see": [
+      "EAC",
+      "GO",
+      "REC"
+    ]
+  },
+  {
+    "term": "ICVCM",
+    "def": "Integrity Council for the Voluntary Carbon Market; defines CCP criteria.",
+    "tags": [
+      "standards",
+      "VCM"
+    ],
+    "see": [
+      "CCP"
+    ]
+  },
+  {
+    "term": "ISO 14064-2",
+    "def": "Specification for GHG projects—quantification and reporting.",
+    "tags": [
+      "ISO",
+      "MRV"
+    ],
+    "see": [
+      "ISO 14064-3",
+      "ISO 14065"
+    ]
+  },
+  {
+    "term": "ISO 14064-3",
+    "def": "Validation and verification of GHG assertions.",
+    "tags": [
+      "ISO",
+      "verification"
+    ],
+    "see": [
+      "ISO 14065"
+    ]
+  },
+  {
+    "term": "ISO 14065",
+    "def": "Requirements for validation/verification bodies.",
+    "tags": [
+      "ISO",
+      "assurance"
+    ]
+  },
+  {
+    "term": "ISO 19011",
+    "def": "Guidelines for auditing management systems.",
+    "tags": [
+      "audit",
+      "ISO"
+    ]
+  },
+  {
+    "term": "ISO/IEC 27701",
+    "def": "Privacy Information Management System extension to ISO/IEC 27001/27002.",
+    "tags": [
+      "privacy",
+      "ISO"
     ]
   },
   {
@@ -145,6 +665,65 @@
     ]
   },
   {
+    "term": "KYT (Know Your Transaction)",
+    "def": "Screening and monitoring of transactions for AML/CTF risk.",
+    "tags": [
+      "AML",
+      "monitoring"
+    ]
+  },
+  {
+    "term": "LandSAT / Sentinel-2",
+    "def": "Satellite programs providing multispectral data used in MRV.",
+    "tags": [
+      "GIS",
+      "remote-sensing"
+    ],
+    "see": [
+      "NDVI",
+      "SAR"
+    ]
+  },
+  {
+    "term": "Leakage (Market/Activity)",
+    "def": "Emissions shifted due to market or activity displacement.",
+    "tags": [
+      "carbon",
+      "MRV"
+    ]
+  },
+  {
+    "term": "LiDAR",
+    "def": "Remote sensing using laser light to measure structure and canopy.",
+    "tags": [
+      "GIS",
+      "MRV"
+    ]
+  },
+  {
+    "term": "Logging (Immutable)",
+    "def": "Write-once logging with retention and tamper-evident controls.",
+    "tags": [
+      "security",
+      "ops"
+    ],
+    "see": [
+      "S3 Object Lock"
+    ]
+  },
+  {
+    "term": "Long-Lived Storage",
+    "def": "Storage that aims for multi-decade durability of cryptographic proofs and documents.",
+    "tags": [
+      "storage",
+      "archival"
+    ],
+    "see": [
+      "Glacier",
+      "LTV"
+    ]
+  },
+  {
     "term": "LTV (Long‑Term Validation)",
     "def": "Mechanism to keep a digital signature verifiable over time (embed OCSP/CRL).",
     "tags": [
@@ -156,11 +735,35 @@
     ]
   },
   {
+    "term": "Market Integrity",
+    "def": "Policies and controls preventing manipulation or double counting.",
+    "tags": [
+      "compliance",
+      "VCM"
+    ]
+  },
+  {
+    "term": "Materiality (Assurance)",
+    "def": "Threshold at which an error or omission would influence decisions.",
+    "tags": [
+      "audit",
+      "assurance"
+    ]
+  },
+  {
     "term": "Merkle Root",
     "def": "Aggregate hash representing a set of files/data for integrity proofs.",
     "tags": [
       "hash",
       "security"
+    ]
+  },
+  {
+    "term": "Metadata Registry",
+    "def": "Catalog of data assets and schemas to support discovery and lineage.",
+    "tags": [
+      "data",
+      "governance"
     ]
   },
   {
@@ -200,6 +803,53 @@
     ]
   },
   {
+    "term": "MTLS (Mutual TLS)",
+    "def": "TLS where both client and server authenticate with certificates.",
+    "tags": [
+      "security",
+      "pki"
+    ]
+  },
+  {
+    "term": "NDVI",
+    "def": "Normalized Difference Vegetation Index used to estimate vegetation health.",
+    "tags": [
+      "GIS",
+      "MRV"
+    ]
+  },
+  {
+    "term": "OCSP",
+    "def": "Online Certificate Status Protocol for real-time certificate revocation checks.",
+    "tags": [
+      "pki",
+      "signing"
+    ],
+    "see": [
+      "CRL",
+      "LTV"
+    ]
+  },
+  {
+    "term": "Open Data License",
+    "def": "License allowing public use of data with defined conditions (e.g., ODC-By).",
+    "tags": [
+      "legal",
+      "data"
+    ]
+  },
+  {
+    "term": "Origin Data",
+    "def": "Raw inputs used to generate derived results, proofs, or certificates.",
+    "tags": [
+      "provenance",
+      "data"
+    ],
+    "see": [
+      "Evidence (MRE)"
+    ]
+  },
+  {
     "term": "Originating Certificate",
     "def": "PDF issued at token minting, signed and time‑stamped.",
     "tags": [
@@ -210,6 +860,92 @@
       "RFC-3161",
       "AATL",
       "LTV"
+    ]
+  },
+  {
+    "term": "PAdES",
+    "def": "PDF Advanced Electronic Signatures profile for long-term validation.",
+    "tags": [
+      "signing",
+      "pdf"
+    ],
+    "see": [
+      "LTV",
+      "AATL"
+    ]
+  },
+  {
+    "term": "PCI DSS",
+    "def": "Security standard for handling payment card data.",
+    "tags": [
+      "security",
+      "payments"
+    ]
+  },
+  {
+    "term": "Permanence",
+    "def": "Likelihood that a carbon removal/avoidance benefit persists over time.",
+    "tags": [
+      "carbon",
+      "risk"
+    ],
+    "see": [
+      "Buffer Pool"
+    ]
+  },
+  {
+    "term": "PKCE",
+    "def": "OAuth 2.0 extension that secures code flows for public clients.",
+    "tags": [
+      "auth",
+      "web"
+    ],
+    "see": [
+      "OIDC"
+    ]
+  },
+  {
+    "term": "Policy Engine (Custody)",
+    "def": "Rules controlling who can move assets and under what conditions.",
+    "tags": [
+      "custody",
+      "ops"
+    ],
+    "see": [
+      "Fireblocks",
+      "MPC"
+    ]
+  },
+  {
+    "term": "Proof of Reserve (Attestation)",
+    "def": "Independent attestation that a custodian holds assets claimed.",
+    "tags": [
+      "assurance",
+      "crypto"
+    ]
+  },
+  {
+    "term": "QES (Qualified eSignature)",
+    "def": "Highest eIDAS signature level; legal equivalent to handwritten signature in the EU.",
+    "tags": [
+      "eIDAS",
+      "signing"
+    ]
+  },
+  {
+    "term": "RACI",
+    "def": "Responsible–Accountable–Consulted–Informed; role clarity matrix.",
+    "tags": [
+      "ops",
+      "governance"
+    ]
+  },
+  {
+    "term": "Raster vs Vector",
+    "def": "Grid-based imagery vs coordinate-based shapes in GIS.",
+    "tags": [
+      "GIS",
+      "data"
     ]
   },
   {
@@ -224,11 +960,63 @@
     ]
   },
   {
+    "term": "RCA (Root Cause Analysis)",
+    "def": "Structured method to identify why an incident occurred and how to prevent it.",
+    "tags": [
+      "ops",
+      "incident"
+    ]
+  },
+  {
+    "term": "REDD+",
+    "def": "Reducing Emissions from Deforestation and forest Degradation plus conservation and sustainable management.",
+    "tags": [
+      "forestry",
+      "carbon"
+    ],
+    "see": [
+      "ARR",
+      "Leakage"
+    ]
+  },
+  {
+    "term": "REGO (UK)",
+    "def": "Renewable Energy Guarantees of Origin in the UK.",
+    "tags": [
+      "energy",
+      "certificates"
+    ],
+    "see": [
+      "GO",
+      "REC",
+      "EAC"
+    ]
+  },
+  {
     "term": "RFC-3161",
     "def": "Time‑Stamp Protocol by a TSA; supports trusted timestamps.",
     "tags": [
       "signing",
       "timestamps"
+    ]
+  },
+  {
+    "term": "Role Separation",
+    "def": "Splitting duties to reduce fraud or error (e.g., deployer vs approver).",
+    "tags": [
+      "security",
+      "ops"
+    ],
+    "see": [
+      "Dual Control"
+    ]
+  },
+  {
+    "term": "Row-Level Security",
+    "def": "DB feature restricting data access per-row based on policies.",
+    "tags": [
+      "data",
+      "security"
     ]
   },
   {
@@ -243,11 +1031,51 @@
     ]
   },
   {
+    "term": "SAR (Synthetic Aperture Radar)",
+    "def": "Radar imagery useful for monitoring biomass and land cover regardless of clouds.",
+    "tags": [
+      "GIS",
+      "MRV"
+    ]
+  },
+  {
+    "term": "SCA (Strong Customer Authentication)",
+    "def": "Two-factor requirement for many EU electronic payments.",
+    "tags": [
+      "payments",
+      "EU"
+    ]
+  },
+  {
+    "term": "SCCs (EU Standard Contractual Clauses)",
+    "def": "EU clauses for lawful international transfers of personal data.",
+    "tags": [
+      "privacy",
+      "GDPR"
+    ]
+  },
+  {
     "term": "Sepolia",
     "def": "Ethereum test network used for deployments/testing.",
     "tags": [
       "ethereum",
       "testnet"
+    ]
+  },
+  {
+    "term": "SIEM",
+    "def": "Security Information and Event Management platform for logs and alerts.",
+    "tags": [
+      "security",
+      "monitoring"
+    ]
+  },
+  {
+    "term": "SLA / SLO / SLI",
+    "def": "Agreement, objective, and indicator trio for service reliability.",
+    "tags": [
+      "ops",
+      "reliability"
     ]
   },
   {
@@ -259,11 +1087,97 @@
     ]
   },
   {
-    "term": "TSA (Time‑Stamping Authority)",
-    "def": "Trusted service issuing RFC‑3161 timestamps.",
+    "term": "SOAR",
+    "def": "Security Orchestration, Automation, and Response tooling.",
     "tags": [
-      "signing",
-      "timestamps"
+      "security",
+      "ops"
+    ],
+    "see": [
+      "SIEM"
+    ]
+  },
+  {
+    "term": "Spatial Join",
+    "def": "GIS operation combining datasets based on spatial relationships.",
+    "tags": [
+      "GIS",
+      "data"
+    ]
+  },
+  {
+    "term": "SPDX",
+    "def": "Standard for communicating software bill of materials (SBOM).",
+    "tags": [
+      "software",
+      "supply-chain"
+    ]
+  },
+  {
+    "term": "Supply-Side Integrity",
+    "def": "Controls ensuring projects meet quality criteria before issuing credits.",
+    "tags": [
+      "VCM",
+      "assurance"
+    ],
+    "see": [
+      "ICVCM",
+      "CCP"
+    ]
+  },
+  {
+    "term": "Terraform (IaC)",
+    "def": "Infrastructure as Code tool for provisioning cloud resources.",
+    "tags": [
+      "devops",
+      "cloud"
+    ]
+  },
+  {
+    "term": "Three-Line Model",
+    "def": "Operational management, risk/compliance, and internal audit lines of defense.",
+    "tags": [
+      "governance",
+      "risk"
+    ]
+  },
+  {
+    "term": "Time-Bound Claim",
+    "def": "A claim with explicit validity period and evidence snapshot date.",
+    "tags": [
+      "claims",
+      "comms"
+    ],
+    "see": [
+      "Provenance"
+    ]
+  },
+  {
+    "term": "Token Allowance",
+    "def": "Approval amount that a spender can use from an owner’s ERC-20 balance.",
+    "tags": [
+      "ethereum",
+      "token"
+    ],
+    "see": [
+      "ERC-20",
+      "Permit"
+    ]
+  },
+  {
+    "term": "Token Gating",
+    "def": "Restricting access to features/content based on token ownership.",
+    "tags": [
+      "web3",
+      "auth"
+    ]
+  },
+  {
+    "term": "Traceability (End-to-End)",
+    "def": "Ability to follow data, assets, or credits through their lifecycle.",
+    "tags": [
+      "provenance",
+      "audit"
     ]
   },
   {
@@ -272,6 +1186,41 @@
     "tags": [
       "tron",
       "testnet"
+    ]
+  },
+  {
+    "term": "TronGrid",
+    "def": "Infrastructure/API for querying Tron blockchain data.",
+    "tags": [
+      "tron",
+      "api"
+    ]
+  },
+  {
+    "term": "TSA (Time‑Stamping Authority)",
+    "def": "Trusted service issuing RFC‑3161 timestamps.",
+    "tags": [
+      "signing",
+      "timestamps"
+    ]
+  },
+  {
+    "term": "UUID v7",
+    "def": "Timestamp-ordered UUID variant useful for database indexing.",
+    "tags": [
+      "data",
+      "engineering"
+    ]
+  },
+  {
+    "term": "VCMI",
+    "def": "Voluntary Carbon Markets Integrity initiative—buyer-side claims guidance.",
+    "tags": [
+      "VCM",
+      "claims"
+    ],
+    "see": [
+      "ICVCM"
     ]
   },
   {
@@ -286,11 +1235,60 @@
     ]
   },
   {
+    "term": "Vector Tile",
+    "def": "Map tile format delivering vector data for web mapping.",
+    "tags": [
+      "GIS",
+      "web"
+    ]
+  },
+  {
+    "term": "Verification Body",
+    "def": "Accredited organization performing MRV verification/validation.",
+    "tags": [
+      "assurance",
+      "ISO"
+    ],
+    "see": [
+      "ISO 14065"
+    ]
+  },
+  {
     "term": "Verra (VCS)",
     "def": "Voluntary carbon standard and registry issuing VCUs.",
     "tags": [
       "registry",
       "standard"
+    ]
+  },
+  {
+    "term": "Vintage Adjustment",
+    "def": "Pricing or eligibility changes based on the year of climate impact.",
+    "tags": [
+      "markets",
+      "VCM"
+    ],
+    "see": [
+      "Vintage"
+    ]
+  },
+  {
+    "term": "WFS / WMS",
+    "def": "OGC web services for vector features (WFS) and map images (WMS).",
+    "tags": [
+      "GIS",
+      "web"
+    ]
+  },
+  {
+    "term": "Witness Data",
+    "def": "Independent corroborating data used to support an MRV claim.",
+    "tags": [
+      "MRV",
+      "assurance"
+    ],
+    "see": [
+      "Evidence (MRE)"
     ]
   },
   {

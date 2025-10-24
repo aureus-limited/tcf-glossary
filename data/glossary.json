@@ -1012,6 +1012,22 @@
     ]
   },
   {
+    "term": "RoPA (Record of Processing Activities)",
+    "def": "GDPR-required inventory of an organization’s personal-data processing: purposes, categories of data/subjects, lawful basis, recipients, international transfers, retention, security measures, and roles (controller/processor). Must be maintained (Art. 30) and provided to regulators on request.",
+    "tags": [
+      "privacy",
+      "GDPR",
+      "compliance"
+    ],
+    "see": [
+      "DPIA",
+      "DPA (Data Processing Agreement)",
+      "Lawful Basis",
+      "Data Minimization",
+      "Retention Policy"
+    ]
+  },
+  {
     "term": "Row-Level Security",
     "def": "DB feature restricting data access per-row based on policies.",
     "tags": [
